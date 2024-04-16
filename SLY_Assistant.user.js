@@ -19,10 +19,14 @@
 	'use strict';
 
 	//Used for reading solana data
-	let customReadRPCs = [];
+	let customReadRPCs = [
+		'https://solana-mainnet.g.alchemy.com/v2/8fxw-vdfULJbBr7mISV2NISXDFdTW3-Q'
+	];
 
 	//Used for pushing transactions to solana chain
-	let customWriteRPCs = [];
+	let customWriteRPCs = [
+		'https://solana-mainnet.g.alchemy.com/v2/8fxw-vdfULJbBr7mISV2NISXDFdTW3-Q'
+	];
 
     let saRPCs = [
         'https://twilight-autumn-diagram.solana-mainnet.quiknode.pro/4fc53d638efd1cc0f80764bc457944bb325d1ff1', //Quicknode
